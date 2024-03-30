@@ -1,6 +1,3 @@
-from typing import Any
-
-
 def bubble_sort_iterative(collection: list) -> list:
     length = len(collection)
     for i in reversed(range(length)):
