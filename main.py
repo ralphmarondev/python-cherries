@@ -1,9 +1,7 @@
-# remove duplicates
-def remove_duplicates(_list: list) -> str:
-    return " ".join(set(_list))
+word = "ralphmaron"
 
+# new_word = word.split('a')
+new_word = ""
+word.join()
 
-if __name__ == '__main__':
-    n = input("Enter collection: ").split()
-
-    print(f"After removing obstacles: {remove_duplicates(n)}")
+print(new_word)
