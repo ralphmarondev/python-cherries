@@ -21,8 +21,11 @@ class LinkedList:
     def insert_last(self, data):
         pass
 
-    def insert_at_pos(self, data):
-        pass
+    def insert_at_pos(self, data, index):
+        if index >= 0:
+            current = self.head
+            for _ in range(index):
+                current = current.next_node
 
     def delete_first(self):
         pass
@@ -48,4 +51,4 @@ if __name__ == '__main__':
 
         if choice == 1:
             data = int(input('Enter data: '))
-            link.
+
