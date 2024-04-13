@@ -11,5 +11,5 @@ if __name__ == '__main__':
     arr = [1, 2, [3]]
     # 1 + 2 + 2(3)
 
-    print(f'Product sum: {product_sum(arr, 0)}')
+    print(f'Product sum: {product_sum(arr, 1)}')
 
