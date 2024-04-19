@@ -45,4 +45,6 @@ while True:
 
 for i in range(len(valid_changes)):
     print(f'{valid_changes[i]} = {changes.count(i)}')
-    
+     
+
+# fix this
