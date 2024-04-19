@@ -1,50 +1,11 @@
 '''
-Enter width of skyscraper: 2
-Enter height of skyscraper: 2
- **
-****
-
-Enter width of skyscraper: 9
-Enter height of skyscraper: 18
-     *
- *********
- *********
- *********
- *********
- *********
- *********
- *********
- *********
- *********
- *********
- *********
- *********
- *********
- *********
- *********
- *********
-***********
-
-Sample Output 3
-
-Enter width of skyscraper: 10
-Enter height of skyscraper: 15
      **
- **********
- **********
- **********
- **********
- **********
- **********
- **********
- **********
- **********
- **********
  **********
  **********
  **********
 ************
 '''
+
 def print_pattern(w, h):
     # if width = odd
     if w % 2 != 0:
@@ -70,7 +31,9 @@ def print_pattern(w, h):
             print(' ' + '*' * w + ' ')
   
 
-w = int(input('Enter width: '))
-h = int(input('Enter height: '))
+w = 10
+h = 5
 
 print_pattern(w, h)
+
+
