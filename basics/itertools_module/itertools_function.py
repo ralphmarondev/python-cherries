@@ -125,7 +125,7 @@ if __name__ == '__main__':
 
     # i.fun_count()
     # i.fun_cycle()
-    # i.fun_accumulate()
+    i.fun_accumulate()
     # i.fun_chain()
     # i.fun_combinations()
-    i.fun_permutation()
+    # i.fun_permutation()
